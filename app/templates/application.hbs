@@ -1,0 +1,34 @@
+<div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/logoText.png" alt="HistoryCraft Logo" height="30"></a>
+            <ul class="nav navbar-nav">                
+                <li>{{#link-to 'projects'}}Projects{{/link-to}}</li>
+                <li>{{#link-to 'about'}}About{{/link-to}}</li>
+                <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+                
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        </div>
+    </nav>
+    <div class="container" id="main">
+        <div class="row">
+            <div class="col-md-12 panel">
+                <div class="container">
+                    <div class="col-md-1">
+                        <a href="#"><img src="images/HistoryCraft_Logo.png" alt="History Craft Logo" class="logo"></a>
+                    </div>
+                    <div class="col-md-8 col-md-offset-1 panel">
+                        {{outlet}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+$icon-font-path: "../styles/fonts/"; // Change the path to the fonts
+@import "bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
+
+
+/*Colors */
+
+$main-color: #003333;
+$slider-color: lightsmoke;
+
+
+/*Fonts*/
+$font-main: Alegreya, serif;
+$font-weight-bold: 700;
+$font-weight-x-bold: 900;
+
+
+/* Put your CSS here */
+html, body {
+    margin: 30px 0;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-image: url('../images/bkgrnd.jpg');
+    background-repeat: repeat;
+    background-color: gray;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+.header {
+    font-family: $font-main;
+    color: $main-color;
+    font-size: 4em;
+}
+
+.srt {
+    display: none;
+}
+
+.carousel-caption {
+    font-family: $font-main;
+    color: $slider-color;
+    font-size: 2.5em;
+    font-weight: $font-weight-bold;
+}

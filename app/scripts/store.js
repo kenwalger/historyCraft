@@ -1,0 +1,1 @@
+Historycraft.ApplicationAdapter = DS.FixtureAdapter;
